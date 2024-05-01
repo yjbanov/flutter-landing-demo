@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_landing_demo">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Flutter Landing Page Demo</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body style="inset: 0px; padding: 0px; margin: 0px">
+  <div id="landing_ui" style="padding: 10px">
+    <h1>Welcome!</h1>
+
+    <p>
+      This example app demonstrates how a landing page can help improve a
+      Flutter Web app's perceived loading time. The landing page, including this
+      text you are reading, is written using plain HTML and JavaScript. It loads
+      instantly as it does not require any extra runtime. The JavaScript is
+      minimal, and the browser already has the HTML engine warmed up and ready.
+    </p>
+
+    <p>
+      While the user is reading this text and familiarizing themselves with the
+      app, the app is being loaded in the background. On a typical modern
+      internet connection the Flutter app only takes a couple of seconds to load,
+      but there could be rare situations when the connection is flaky or slow,
+      which can stretch the loading time. Hopefully, by the time the user is done
+      reading and is ready to hit the "Start" button, most (if not all) of the
+      loading process will be finished, and the app starts instantly.
+      Alternatively, additional start-up UX, such as a loading indicator can be
+      used if the app hasn't loaded before the user clicks the start button.
+    </p>
+
+    <button id="start_button">Start</button>
+  </div>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
